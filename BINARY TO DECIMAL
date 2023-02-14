@@ -1,0 +1,14 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+long long convert(int);
+
+int main() {
+  int n, bin;
+  cout<<"enter an element"<<endl;
+ cin>>n;
+  bin = convert(n);
+  cout<<n<<"in decimal="<<bin<<"in binary"<<endl;
+  return 0;
+}
